@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://dusign.net/2019/11/01/Hexo-Theme-Snail/</loc>
+    <loc>https://dusign.net/2022/11/01/about/</loc>
     
-    <lastmod>2023-03-10</lastmod>
+    <lastmod>2023-03-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,7 @@
   <url>
     <loc>https://dusign.net/photography/index.html</loc>
     
-    <lastmod>2023-03-10</lastmod>
+    <lastmod>2023-03-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,15 +58,15 @@
 
   <url>
     <loc>https://dusign.net/</loc>
-    <lastmod>2023-03-10</lastmod>
+    <lastmod>2023-03-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://dusign.net/tags/hexo-theme-snail/</loc>
-    <lastmod>2023-03-10</lastmod>
+    <loc>https://dusign.net/tags/About/</loc>
+    <lastmod>2023-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -74,8 +74,8 @@
 
   
   <url>
-    <loc>https://dusign.net/categories/hexo/</loc>
-    <lastmod>2023-03-10</lastmod>
+    <loc>https://dusign.net/categories/About/</loc>
+    <lastmod>2023-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
