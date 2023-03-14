@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="baidu-site-verification" content="093lY4ziMu" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Material Design &amp; Tribology LAB">
+    <meta name="keyword"  content="MDTLab">
+    <link rel="shortcut icon" href="/img/ironman-draw.png">
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!--<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>-->
+    <title>
+        
+          Professor - MDTLab
+        
+    </title>
+
+    <link rel="canonical" href="https://dusign.net/professor/">
+
+    <!-- Bootstrap Core CSS -->
+    
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+
+
+    <!-- Custom CSS --> 
+    
+        
+<link rel="stylesheet" href="/css/dusign-light.css">
+
+        
+<link rel="stylesheet" href="/css/dusign-common-light.css">
+
+        
+<link rel="stylesheet" href="/css/font-awesome.css">
+
+        
+<link rel="stylesheet" href="/css/toc.css">
+
+        <!-- background effects end -->
+    
+    
+    <!-- Pygments Highlight CSS -->
+    
+<link rel="stylesheet" href="/css/highlight.css">
+
+
+    
+<link rel="stylesheet" href="/css/widget.css">
+
+
+    
+<link rel="stylesheet" href="/css/rocket.css">
+
+
+    
+<link rel="stylesheet" href="/css/signature.css">
+
+
+    
+<link rel="stylesheet" href="/css/fonts.googleapis.css">
+
+
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- photography -->
+    
+<link rel="stylesheet" href="/css/photography.css">
+
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- background effects start -->
+    
+    <!-- background effects end -->
+
+	<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        
+            
+                background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/header_img/Iron-Man-3.jpg')
+                /*page*/
+            
+        
+    }
+    
+</style>
+
+<header class="intro-header" >
+    <!-- Signature -->
+    <div id="signature">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                
+                    <div class="site-heading">
+                        <h1>Professor</h1>
+                        <!--<hr class="small">-->
+                        <span id="subdusi" class="subheading">Department of Mechanical Engineering, Gachon University</span>
+                    </div>
+                
+
+                </div>
+            </div>
+        </div>      
+    </div>
+
+    
+    <div class="waveWrapper">
+        <div class="wave wave_before" style="background-image: url('/img/wave-light.png')"></div>
+        <div class="wave wave_after" style="background-image: url('/img/wave-light.png')"></div>
+    </div>
+    
+</header>
+
+	
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Material Design &amp; Tribology LAB</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+
+                    
+
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/professor/">Professor</a>
+                        </li>
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/members/">Members</a>
+                        </li>
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/photography_/">Photography</a>
+                        </li>
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/publications/">Publications</a>
+                        </li>
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/contact/">Contact</a>
+                        </li>
+                        
+                    
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Main Content -->
+    <!-- Main Content -->
+<div class="container">
+    <div class="row">
+        
+<!-- NO SIDEBAR -->
+    <!-- Post Container -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
+                <div style="display:flex; align-items:left;">
+    <img src="/img/prof.jpeg" alt="Professor" style="height:200px;">
+    <p style="margin-left:10px;">
+<strong><span style="font-size: 24px; font-weight:bold;">Kyungjun Lee</span></strong> </br>
+<strong><span style="font-size: 20px; font-weight:bold;">Research Assistant Professor</span></strong> </br>
+<strong>E-mail</strong> leek3@gachon.ac.kr</br>
+<strong>Office</strong> 1342 Seongnamdaero, Sujeong-gu, Seongnam-si, Gyeonggi-do, Room 514, 13120, Korea
+    </p>
+</div>
+
+
+
+<hr>
+<ul>
+<li><strong>Ph.D. Mechanical Engineering, Texas A&amp;M University</strong>, Texas, USA   <span style="float: right;">Dec. 2019</span><br>&emsp;Dissertation Title: “The design, synthesis, characterization, and wear evaluation of multi-phase quasicrystalline alloys” </li>
+<li><strong>M.S. Mechanical Engineering, Pohang University of Science and Technology</strong>, Pohang, South Korea   <span style="float: right;">Feb. 2009</span><br>&emsp;MS Thesis: “Characteristics and self-cleaning effect of the transparent superhydrophobic film having nanofibers array structures” </li>
+<li><strong>B.S. Mechanical Engineering, Hanyang University</strong>, Seoul, South Korea   <span style="float: right;">Feb. 2004</span></li>
+</ul>
+<h2 id="Research-Interests"><a href="#Research-Interests" class="headerlink" title="Research Interests"></a>Research Interests</h2><hr>
+<ul>
+<li>Development materials showing super-low friction coefficient</li>
+<li>Development and Wear performance evaluation of high entropy alloys</li>
+<li>Candidate material study through by coating and heat treating with conventional metals considering economics</li>
+<li>Analysis and mitigation of wear occurred by biomass preprocessing and pretreatment</li>
+<li>Bench-scale 2-body &amp; 3-body abrasion, and errosion wear tester design, development, and performance evaluation</li>
+<li>Electrochemical analysis and corrosion evaluation of metals</li>
+<li>Analysis of the tribological performance of materials and wear evaluation  (microstructure &amp; mechanical<br>properties)</li>
+<li>The design &amp; fabrication of super-hard materials with high wear resistance, favorable fracture toughness, and low friction coefficient</li>
+<li>Plasmonic properties of coated nano-structure</li>
+<li>Nanoplasmonics-Surface Enhanced Raman Scattering (SERS)</li>
+<li>Analysis of nanostructures-mechanical characterization &amp; wetting characteristics</li>
+<li>The design and fabrication of nanostructured materials (Anodic Aluminum Oxide)</li>
+</ul>
+<h2 id="Research-Experience"><a href="#Research-Experience" class="headerlink" title="Research Experience"></a>Research Experience</h2><hr>
+<ul>
+<li><p><strong>Oak Ridge National Laboratory, Tennessee, USA</strong> <span style="float: right;">11/2019 - 01/2021</span><br>Position: Postdoctoral Research Associate, Materials Science &amp; Technology Division</p>
+</li>
+<li><p><strong>Oak Ridge National Laboratory, Tennessee, USA</strong> <span style="float: right;">08/2018 - 07/2019</span><br>Position: Intern, Materials Science &amp; Technology Division</p>
+</li>
+<li><p><strong>Kyung Hee University, Seoul, South Korea</strong> <span style="float: right;">07/2012 - 08/2013</span><br>Position: Researcher, Nanostructures &amp; Nanomaterials Lab., Mechanical Engineering Department</p>
+</li>
+<li><p><strong>Pohang University of Science and Technology, Pohang, South Korea</strong> <span style="float: right;">08/2007 - 02/2009</span><br>Position: Master graduate student<br>&emsp;- Icebank in Refrigerator using Axiomatic Design, LG Electronics Co. Ltd.<br>&emsp;- Development of Self-Cleaning Glass using Surface Modification Technique, Next Generation Vehicle (NGV)<br>&emsp;- Structural Analysis in Bipolar Plate of Fuel Cell Stack and Development of Fastening System, Next<br>Generation Vehicle (NGV)</p>
+</li>
+</ul>
+<h2 id="INDUSTRY-EXPERIENCE"><a href="#INDUSTRY-EXPERIENCE" class="headerlink" title="INDUSTRY EXPERIENCE"></a>INDUSTRY EXPERIENCE</h2><h3 id="-Daelim-Industrial-Co-Ltd-07-2010-07"><a href="#-Daelim-Industrial-Co-Ltd-07-2010-07" class="headerlink" title=" Daelim Industrial Co. Ltd. 07/2010 - 07/"></a> Daelim Industrial Co. Ltd. 07/2010 - 07/</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Position: Mechanical Engineer in Rotating equipment team of plant engineering</span><br></pre></td></tr></table></figure>
+<ul>
+<li>Project for Yanbu Export Refinery Project Gasoline Package [Saudi Project]</li>
+<li>Proposal for Ras Tanura Integrated Project [Saudi Project]</li>
+<li>Proposal for Habshan Sulphur Station and Pipeline Project [Saudi Project]</li>
+<li>Reduction Strategies of Rotating Equipment Vibration</li>
+</ul>
+<h3 id="-Samsung-Electronics-Co-Ltd-02-2009-06-20-10"><a href="#-Samsung-Electronics-Co-Ltd-02-2009-06-20-10" class="headerlink" title=" Samsung Electronics Co. Ltd. 02/2009 - 06 /20 10"></a> Samsung Electronics Co. Ltd. 02/2009 - 06 /20 10</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Position: R&amp;D staff member in Visual display division</span><br></pre></td></tr></table></figure>
+<ul>
+<li>Development for 42”/50” Insignia Television and 58” PDP Television</li>
+<li>Reduction of Cycle time by using Heat &amp; Cool steam mold</li>
+<li>Evaluation on Uniformity of Glass Fiber in Injection Product by using Thermo Gravitation Analysis</li>
+<li>Stiffness Reinforcement of TV Bezel by using Glass Fiber with the Aspect ratio</li>
+<li>Residual Stress Measurement of Co-Injection or Over-Molded Part (Two color layers) through<br>Birefringence using Polarized Optical Microscopy</li>
+</ul>
+<h2 id="NATIONAL-R-amp-D-PROJECTS"><a href="#NATIONAL-R-amp-D-PROJECTS" class="headerlink" title="NATIONAL R&amp;D PROJECTS"></a>NATIONAL R&amp;D PROJECTS</h2><h3 id="-Development-of-high-entropy-alloy-and-Understanding-wear-mechanism-National-Research"><a href="#-Development-of-high-entropy-alloy-and-Understanding-wear-mechanism-National-Research" class="headerlink" title=" Development of high-entropy alloy and Understanding wear mechanism [National Research"></a> Development of high-entropy alloy and Understanding wear mechanism [National Research</h3><h3 id="Foundation-of-Korea-09-2021-–-02"><a href="#Foundation-of-Korea-09-2021-–-02" class="headerlink" title="Foundation of Korea] 09/2021 – 02/"></a>Foundation of Korea] 09/2021 – 02/</h3><h3 id="Position-Project-PI"><a href="#Position-Project-PI" class="headerlink" title="Position: Project PI"></a>Position: Project PI</h3><h3 id="A-study-on-dynamic-analysis-and-material-life-prediction-based-on-AI-of-high-entropy-alloy-usable-in"><a href="#A-study-on-dynamic-analysis-and-material-life-prediction-based-on-AI-of-high-entropy-alloy-usable-in" class="headerlink" title="A study on dynamic analysis and material life prediction based on AI of high-entropy alloy usable in"></a>A study on dynamic analysis and material life prediction based on AI of high-entropy alloy usable in</h3><h3 id="high-speed-and-extreme-environments-FY21-24-65K"><a href="#high-speed-and-extreme-environments-FY21-24-65K" class="headerlink" title="high-speed and extreme environments [FY21-24: 65K]"></a>high-speed and extreme environments [FY21-24: 65K]</h3><h3 id="-Development-of-ultra-precise-grinding-equipment-for-displays-and-semiconductors-Ministry"><a href="#-Development-of-ultra-precise-grinding-equipment-for-displays-and-semiconductors-Ministry" class="headerlink" title=" Development of ultra-precise grinding equipment for displays and semiconductors [Ministry"></a> Development of ultra-precise grinding equipment for displays and semiconductors [Ministry</h3><h3 id="of-Trade-Industry-and-Energy-09-2021-–-12"><a href="#of-Trade-Industry-and-Energy-09-2021-–-12" class="headerlink" title="of Trade, Industry and Energy] 09/2021 – 12/"></a>of Trade, Industry and Energy] 09/2021 – 12/</h3><h3 id="Position-Project-PI-1"><a href="#Position-Project-PI-1" class="headerlink" title="Position: Project PI"></a>Position: Project PI</h3><h3 id="Development-of-high-precision-and-high-quality-display-grinding-system-for-next-generation-dispay"><a href="#Development-of-high-precision-and-high-quality-display-grinding-system-for-next-generation-dispay" class="headerlink" title="Development of high-precision and high-quality display grinding system for next-generation dispay"></a>Development of high-precision and high-quality display grinding system for next-generation dispay</h3><h3 id="panels-and-device-FY21-24-1-000-K"><a href="#panels-and-device-FY21-24-1-000-K" class="headerlink" title="panels and device [FY21-24: 1, 000 K]"></a>panels and device [FY21-24: 1, 000 K]</h3><h3 id="-Bearing-Materials-for-Generation-3-Concentrating-Solar-Power-Systems-projects-ORNL"><a href="#-Bearing-Materials-for-Generation-3-Concentrating-Solar-Power-Systems-projects-ORNL" class="headerlink" title=" Bearing Materials for Generation 3 Concentrating Solar Power Systems projects [ORNL]"></a> Bearing Materials for Generation 3 Concentrating Solar Power Systems projects [ORNL]</h3><h3 id="08-2019-–-01"><a href="#08-2019-–-01" class="headerlink" title="08/2019 – 01/"></a>08/2019 – 01/</h3><h3 id="Position-Main-investigator-under-project-PI-Dr-Jun-Qu"><a href="#Position-Main-investigator-under-project-PI-Dr-Jun-Qu" class="headerlink" title="Position: Main investigator under project PI (Dr. Jun Qu)"></a>Position: Main investigator under project PI (Dr. Jun Qu)</h3><h3 id="The-aim-of-this-work-is-to-study-the-bearing-lubrication-systems-in-the-next-generation-concentrating"><a href="#The-aim-of-this-work-is-to-study-the-bearing-lubrication-systems-in-the-next-generation-concentrating" class="headerlink" title="The aim of this work is to study the bearing lubrication systems in the next-generation concentrating"></a>The aim of this work is to study the bearing lubrication systems in the next-generation concentrating</h3><h3 id="solar-power-CSP-plants"><a href="#solar-power-CSP-plants" class="headerlink" title="solar power (CSP) plants."></a>solar power (CSP) plants.</h3><ul>
+<li>Task 1: Design the bench-scale tribometer to study the bearing tribology in CSP systems</li>
+</ul>
+<ul>
+<li>Task 2: Estimate the tribological performance of candidate bearing materials</li>
+<li>Task 3: Understand the effect of impurities in the chloride molten salts [FY20-21: 1,000K]</li>
+</ul>
+<h3 id="-Feedstock-Conversion-Interface-Consortium-FCIC-AOP-projects-ORNL-08-2018-10"><a href="#-Feedstock-Conversion-Interface-Consortium-FCIC-AOP-projects-ORNL-08-2018-10" class="headerlink" title=" Feedstock-Conversion Interface Consortium (FCIC) AOP projects [ORNL] 08/2018 - 10/"></a> Feedstock-Conversion Interface Consortium (FCIC) AOP projects [ORNL] 08/2018 - 10/</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Position: Main investigator under project PI (Dr. Jun Qu)</span><br><span class="line">Understanding and Mitigating Wear Issues in Biomass Preprocessing and Pretreatment [FY19: 956K]</span><br><span class="line">Biomass-caused equipment wear investigation and mitigation (Hammer mill&amp;Screw feeder) [FY20: 11,071K]</span><br></pre></td></tr></table></figure>
+<ul>
+<li>Task 1: Material of Construction [FY20: $176k]</li>
+<li>Task 6: High-Temperature Conversion [FY20: $336k]</li>
+<li>Task 7: Low-Temperature Conversion</li>
+</ul>
+<h3 id="-BETO-FCIC-DFO-projects-ORNL-10-2019-09-20-22"><a href="#-BETO-FCIC-DFO-projects-ORNL-10-2019-09-20-22" class="headerlink" title=" BETO-FCIC DFO projects [ORNL] 10/2019 - 09 /20 22"></a> BETO-FCIC DFO projects [ORNL] 10/2019 - 09 /20 22</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Position: Main investigator under project PI (Dr. Jun Qu)</span><br><span class="line">Investigation and addressing the wear issue of the rotary shear biomass comminution system [FY20: 215K]</span><br></pre></td></tr></table></figure>
+<ul>
+<li>Tribosystem Analysis and Wear Mechanism Investigation</li>
+<li>Wear Modeling to Define Criteria of Candidate Materials</li>
+<li>Develop Candidate Materials and Design</li>
+<li>Bench-Scale Wear Testing and Analysis for Mitigation Identification</li>
+<li>Fabrication of Prototype Cutter and Clearing Plates</li>
+<li>Full-Scale Feasibility Validation</li>
+</ul>
+<h3 id="-Ford-projects-ORNL-10-2019-09-20-20"><a href="#-Ford-projects-ORNL-10-2019-09-20-20" class="headerlink" title=" Ford projects [ORNL] 10/2019 - 09/20 20"></a> Ford projects [ORNL] 10/2019 - 09/20 20</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Position: Main investigator under project PI (Dr. Jun Qu)</span><br><span class="line">Additive Manufacturing Opportunities to Reduce Friction and Wear of Engine Components [FY20: ]</span><br></pre></td></tr></table></figure>
+<ul>
+<li>Tribosystem Analysis and Wear Mechanism Investigation</li>
+<li>Develop Low Friction Composite Materials and Structures with Microchannels using 3D Printing Method</li>
+</ul>
+<h3 id="-National-Research-Foundation-of-Korea-NRF-POSTECH-02-2018-02"><a href="#-National-Research-Foundation-of-Korea-NRF-POSTECH-02-2018-02" class="headerlink" title=" National Research Foundation of Korea (NRF) [POSTECH] 02/2018 - 02/"></a> National Research Foundation of Korea (NRF) [POSTECH] 02/2018 - 02/</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Position: Co investigator</span><br><span class="line">Design and Applications of Nano-Engineered Superhydrophobic&#x2F;Superhydrophilic Structure</span><br></pre></td></tr></table></figure>
+<h2 id="Academic-award"><a href="#Academic-award" class="headerlink" title="Academic award"></a>Academic award</h2><h3 id="-Oak-Ridge-National-Laboratory"><a href="#-Oak-Ridge-National-Laboratory" class="headerlink" title=" Oak Ridge National Laboratory"></a> Oak Ridge National Laboratory</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">TMS EPD Materials Characterization Best Poster Award (Third place) March 2019</span><br></pre></td></tr></table></figure>
+<h2 id="Technical-publications"><a href="#Technical-publications" class="headerlink" title="Technical publications"></a>Technical publications</h2><h3 id="-Published-papers"><a href="#-Published-papers" class="headerlink" title=" Published papers"></a> Published papers</h3><ol>
+<li>Kihwan Kim, Hong yul Park, Ho Jun Kim, Deaho Lee, Sangyul Ha, Kyungjun Lee, and Woonbong Hwang,<br> <strong>“Self-Cleaning Mechanisms According to the Surface Characteristics and Wettability of the</strong><br> <strong>Deposition Material”,</strong> Applied surface science, Feb. 3, 2023 (IF: 7.392, under review, 2.5%=680) (680<em>/
+ </em>1.5= 127.5 points)</li>
+<li>Kyungjun Lee<em>, Tomas, and Jun Qu, <strong>“The loop test of tool steels and surface treatments”,</strong> Advanced in<br> Applied Ceramics, Feb. 10, 2023 (IF: 2.46, 예정, 22.152%=250) (250</em>2/7= 70 points) (1월말까지 완료)</li>
+<li>Sangyul Ha, Yurim Lee, Sungmin Kang, Kihwan Kim, Young-Jun Jang, Jongkuk Kim, Kyungjun Lee<em>, Ho<br> Jun Kim <strong>“Tribological behavior of DLC coating on sintered composite and metal substrate with</strong><br> <em>*varying load bearing capacities”,</em></em> Surfaces and interfaces, Feb. 12, 2023 (IF:6.137, submitted,</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">12.5%&#x3D; 390 ) (390*2&#x2F;9&#x3D;86.67points)</span><br></pre></td></tr></table></figure>
+<ol>
+<li>Sangyul Ha, Wooseok Sung, Kyungjun Lee, Keunhwan Park, Hyokyung Sung, Seong-Ho Son<em>, <strong>“A</strong><br> <strong>monolithically implicit time-integration approach for a dislocation-density-based b.c.c. single</strong><br> <em>*crystal plasticity model”,</em></em> Finite Elements in Analysis and Design, Feb. 3 , 2023 (IF: 2.618, Submitted,<br> 17.041%= 350 ) ( 350 /7= 50 points)</li>
+<li>Vinh Van Tran, Kyungjun Lee, Thanh Ngoc Nguyen <em>, Daeho Lee </em>, <strong>“Recent Advances and Progress of</strong><br> <strong>Conducting Polymer-Based Hydrogels in Strain Sensor Applications”,</strong> Gels, Jan. 04, 2023 (IF: 4.432,<br> Published, 57.947%=17 0 ) (170/5=34 points)</li>
+<li>Avik Samanta, Wuji Huang, Kyungjun Lee, Xin He, Chanaka Kumara, Jun Qu, and Hongtao Ding <strong>, “Role</strong><br> <strong>of Surface Wetting on Tribological Behavior for Laser Nanotextured Steel using Ionic Liquid</strong><br> <strong>Lubricants”</strong> , Journal of Manufacturing Processes, Jan. 06, 2023 (IF: 5.684, reviewing, 28.431%=245)</li>
+<li>Rick Wang, Xin He, Alexis Flores-Betancourt, Kyungjun Lee, Tim Dunning, Jun Qu <strong>, “Investigation of</strong><br> <strong>Biomass Fouling for Screw Feeder Used in Pre-Conversion of Pyrolysis”</strong> , ACS Sustainable Chemistry<br> &amp; Engineering, Oct. 26, 2022, submitted (IF: 9.458, Submitted, 15.922%=370) (370/7=52.8 points)</li>
+<li>Sanghyun Jo, Su Ik Kang, Kyungjun Lee<strong>, Ho Jun Kim </strong>, “Helium metastable distributions and their<strong>
+ </strong>effect on the uniformity of hydrogenated amorphous silicon depositions in He/SiH4 capacitively<strong>
+ </strong>coupled plasmas”<em>* , Coatings, Sept. 15, 2022 (IF: 3.236, 40.683%=200) (200</em>2/5=80 points, 업적완료)</li>
+<li>Sangyul Ha, Saif Haider Kayani, Kyungjun Lee, Sangeun Park, Jung Gi Kim, Jae Bok Seol, Hyokyung Sung,<br> “ <strong>Experimental and Crystal Plasticity Finite Element Study of the Deformation Behavior of High-</strong><br> <strong>Mn Steel Micropillars”</strong> , Steel Research International, Oct., 13 , 2022 (IF: 2.126, 39.873%=215)<br> (215/8=26.8 points)</li>
+<li>Eugene Chen, P Renner, Kyungjun Lee<strong>, B Guo, and Hong Liang, “ </strong>Effects of humidity on dust<strong>
+</strong>particle removal during solar panel cleaning** ”, Surface Topography: Metrology and Properties, Jan. 14,<br>2022 (IF: 2.185, 55.109%=170), <a href="https://doi.org/10.1088/2051-672X/ac" target="_blank" rel="noopener">https://doi.org/10.1088/2051-672X/ac</a></li>
+<li>Sangyul Ha, Areum Jang, Kyungjun Lee<strong>, Seong-Ho Son, “ </strong>Knock Sensing and Imaging from<strong>
+</strong>Structural Bending Waves** ”, ICT Express, Jan. 15, 2022 (IF: 4.754, 29.570%=245)</li>
+<li>Kyungjun Lee, Peter Blau, Jeff Lacey, George Fensake, Vicki Thompson, Rick Elander, James R. Keiser,<br>and Jun Qu, “ <strong>Comprehensive Studies on Reliability of Fe-Borided and DLC-Coated M2 Cutting</strong><br><strong>Blade of Knife Mill Used in Biomass Pretreatment Process</strong> ”, (Submitted to Applied Surface Science)<br>(IF: 6.182)</li>
+<li>Kyungjun Lee, Lianshan Li, Dave Lanning, Ercan Cakmak, James R. Keiser, and Jun Qu, “ <strong>Tool Design</strong><br><strong>with Economically Maximum Life through Analysis of Wear Issues occurred in the Rotary Shear</strong><br><strong>Biomass Comminution System</strong> ”, ACS Sustainable Chemistry &amp; Engineering Journal, June 24, 2021 (IF:<br>7.632),</li>
+<li>Kyungjun Lee, Erik Kuhn, Ercan Cakmak, Ed Wolfrum, James R. Keiser, and Jun Qu, “ <strong>Understanding</strong><br><strong>and Mitigating the Excessive Wear of Plug Screw Feeder Used in Biomass-to-Fuel Conversion</strong><br><strong>Process</strong> ”, (Submitted to WEAR) (IF: 4.271)</li>
+<li>Yanbao Guo, Zhou Xuanli, Kyungjun Lee, Hyun Chul Yoon, Quan Xu, De Wang, “ <strong>Recent development</strong><br><strong>in friction of 2D materials: from mechanisms to applications</strong> ”, May 15, 2021 (IF: 3.551)</li>
+<li>Kyungjun Lee, Eugene Chen, Donald Naugle, and Hong Liang, “ <strong>Corrosive Behavior of Multi-Phased</strong><br><strong>Quasicrystal Alloys</strong> ”, Journal of Alloys and Compounds, Vol.851, Jan. 15, 2021 (IF: 4.650)</li>
+<li>Kyungjun Lee, Hakjeong Kim, Jae-Hyun Kim, and Dukhyun Choi, “ <strong>Structural Color and NIR</strong><br><strong>Tunability of Ruthenium-coated Anodic Aluminum Oxide by Atomic Layer Deposition</strong> ”, Scripta<br>Materialia, Vol.187, 125-129, Oct. 2020 (IF: 5.079)</li>
+<li>Kyungjun Lee, Yan Chen, Wei Dai, Donald Naugle, and Hong Liang, “ <strong>Design of Quasicrystal Alloys</strong><br><strong>with Favorable Tribological Performance in view of Microstructure and Mechanical Properties</strong> ”,<br>Materials &amp; Design, Vol.193, 108735, Aug. 2020 (IF: 6.289)</li>
+<li>Sougata Roy, Kyungjun Lee, Jeffrey Lacey, Vicki Thompson, James Keiser, and Jun Qu, “ <strong>Material</strong></li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Characterization-Based Wear Mechanism Investigation for Biomass Hammer Mills ”, ACS</span><br><span class="line">Sustainable Chemistry &amp; Engineering, 8, 9, 3541-3546, Feb. 20, 2020 (IF: 6.97 0 )</span><br></pre></td></tr></table></figure>
+<ol>
+<li>Kyungjun Lee, Sougata Roy, Ercan Cakmak, Jeffrey A. Lacey, Harry M. Meyer III, Vicki S. Thompson,<br>James R. Keiser, and Jun Qu, “ <strong>Composition-Preserving Extraction and Characterization of Extrinsic</strong><br><strong>Ash and Intrinsic Compounds of Corn Stover and Pine Residue</strong> ”, ACS Sustainable Chemistry &amp;<br>Engineering, 8, 3, 1599-1610, Jan. 2, 2020 (IF: 6.970)</li>
+<li>James R. Keiser, Gavin Warrington, Samuel Lewis, Jiheon Jun, Jun Qu, Kyungjun Lee, and Michael P<br>Brady, “ <strong>Corrosion and Chemical Characterization of Bio-Oils from Biomass with Varying Ash and</strong><br><strong>Moisture Contents</strong> ”, Corrosion 2020</li>
+<li>Jeffery A. Lacey, Kyungjun Lee, and Jun Qu, “ <strong>Wear and Why? How Ash Elements Can Help Define</strong><br><strong>Wear Profiles of Biomass Feedstocks</strong> ”, 2019 ASABE, July 2019</li>
+<li>Kyungjun Lee, Wei Dai, Donald Naugle, and Hong Liang, “ <strong>Effects of Microstructure of Quasicrystal</strong><br><strong>Alloys on their Mechanical and Tribological Performance</strong> ”, Journal of Tribology, 140(5): 051605,<br>Sept. 2018 (IF: 0.690)</li>
+<li>Wei Dai, Yunyun Chen, Kyungjun Lee, Alexander M. Sinyukov, Masfer Alkahtani, Philip R. Hemmer, and<br>Hong Liang, “ <strong>In situ Investigation of the Growth of a Tribofilm Consisting NaYF4 Fluorescent</strong><br><strong>Nanoparticles</strong> ”, Tribology Transactions, Vol.61, 503-512, Dec. 12, 2017 (IF: 0.836)</li>
+<li>Wei Dai, Kyungjun Lee, Alexander M Sinyukov, and Hong Liang, “ <strong>Effects of Vanadium Oxide</strong><br><strong>Nanoparticles on Friction and Wear Reduction</strong> ”, Journal of Tribology, 139(6): 061607, , July 10, 2017<br>(IF: 0.836)</li>
+<li>Kyungjun Lee, Jialin Hsu, Donald Naugle, and Hong Liang, “ <strong>Multi-phase Quasicrystalline Alloys for</strong><br><strong>Superior Wear Resistance</strong> ”, Materials &amp; Design, Vol.108, pp.440-447, Oct. 15, 2016 (IF: 5.122)</li>
+<li>H. Choi, Kyungjun Lee, J. Reeks, and Hong Liang, “ <strong>Design and synthesis of a Superhydrophobic</strong><br><strong>PVDF-based Composite</strong> ”, Journal of Tribology, Vol.138, April 2016 (IF: 0.74 0 )</li>
+<li>Youngmin Kim, Seungjae Lee, Kyungjun Lee, “ <strong>Self-assembled plasmonic nanoparticles on vertically-</strong><br><strong>aligned carbon nanotube electrodes via thermal evaporation</strong> ”, ACS Appl. Mater. Interfaces, 6, 20423-<br>20429, 2014 (IF: 7.100)</li>
+<li>Jinho Yoo, Jae-Hyun Kim, Kyungjun Lee, Sangmin Lee, Sunghan Kim, Hyun-Kyu Park, Sang-Woo Kim,<br>Jihyun Bae, Jong-Jin Park, and D. Choi, “ <strong>Dewetted Gold Nanoparticles on ZnO nanorods for Three-</strong><br><strong>dimensionally Distribute Plasmonic Hot Spots</strong> ”, Scripta Materialia 69, pp. 654 - 657, 2013 (IF: 3.350)</li>
+<li>W. Hwang, K.H. Lee, H. Park, J. Kim, J. Park, J.H. Cho, J.H. Jeon, D. Choi. D. Kim, D Kim, S. Kim,<br>Kyungjun Lee, T. Jing and S. Lee, “ <strong>Some Aspects on Design and Applications of Nanohoneycomb and</strong><br><strong>Nanofibe Array Structures</strong> ”, Mechanics of Composite Materials, Vol.47, No.1, pp.17-52, 2011 (IF: 0.770)</li>
+<li>Kyungjun Lee, S. Lyn, Y.S. Kim, and W Hwang, “ <strong>Characteristics and self-cleaning effect of the</strong><br><strong>transparent superhydrophobic film having nanofibers array structures</strong> ”, Applied Surface Science,<br>Vol.256, Issue 22, pp. 6729 - 6735, 2010 (IF: 1.793)</li>
+</ol>
+<h3 id="-Articles-in-Preparation-Based-on-Completed-Research"><a href="#-Articles-in-Preparation-Based-on-Completed-Research" class="headerlink" title=" Articles-in-Preparation Based on Completed Research"></a> Articles-in-Preparation Based on Completed Research</h3><ol>
+<li>Chang-Woo Lee, Seong-Ho Son, and Kyungjun Lee, “ <strong>Comprehensive corrosion investigation of high-</strong><br> <strong>entropy alloy using simulation and experitment</strong> ”, (preparing)</li>
+<li>Seong-Ho Son, Sangyul Ha, and Kyungjun Lee, “ <strong>Numerical and experimental investigation of impact</strong><br> <strong>localization in the polymer-based plate using newly developed imaging algorithm</strong> ”, (preparing)</li>
+<li>Seong-Ho Son, Sangyul Ha, and Kyungjun Lee, “ <strong>In-situ plastic deformation behavior analysis of high</strong><br> <strong>entropy alloy in aid of Abaqus</strong> ”, (preparing)</li>
+<li>Kyungjun Lee, James R. Keiser, and Jun Qu, “ <strong>Blasting impact and wear loss by biomass</strong><br> <strong>impingement</strong> ”, (preparing)</li>
+<li>Kyungjun Lee, Hyun Chul Yoon, “ <strong>Theoretical and experimental approach for Crack Propagation</strong> ”,</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">(preparing)</span><br></pre></td></tr></table></figure>
+<ol>
+<li>Avik, Kyungjun Lee, and Jun Qu, “ <strong>Wear evaluation of laser surface treated steels at high</strong><br> <strong>temperature</strong> ”, (preparing)</li>
+<li>Kyungjun Lee, Hyun Chul Yoon, Chanho Lee, and Jun Qu, “ <strong>Wear of high entropy alloys</strong> ”, (preparing)</li>
+<li>Jonghyun Lee, Cal Vin Wong, Morotolaoluwa Alabi, Christian Widener, Dennis Helfritch, Kyungjun Lee,<br> and Victor K. Champagne, “ <strong>Functional Martensitic Coatings by Cold-Spraying Austenitic Stainless</strong><br> <strong>Steel Powders</strong> ”, (preparing)</li>
+<li>Kyungjun Lee, Amir Asadi, “ <strong>Polymer composite with favorable impact resistance</strong> ”, (preparing)</li>
+<li>Kyungjun Lee, James, “ <strong>Al-Ce alloy and HEAs corrosion resistance</strong> ” (preparing)</li>
+</ol>
+<h3 id="-Conference-Proceedings"><a href="#-Conference-Proceedings" class="headerlink" title=" Conference Proceedings"></a> Conference Proceedings</h3><ol>
+<li>Kyungjun Lee (TLT Technical Editor), New Orleans, Louisiana, USA, STLE 2021, (May 16-20, 2021)</li>
+</ol>
+<h3 id="2-Kyungjun-Lee-Process-Technology-amp-Modeling-Committee-in-Extraction-amp-Processing-Division"><a href="#2-Kyungjun-Lee-Process-Technology-amp-Modeling-Committee-in-Extraction-amp-Processing-Division" class="headerlink" title="2. Kyungjun Lee (Process Technology &amp; Modeling Committee in Extraction &amp; Processing Division)"></a>2. Kyungjun Lee (Process Technology &amp; Modeling Committee in Extraction &amp; Processing Division)</h3><h3 id="Orlando-Florida-USA-TMS-2021-March-14-18-2021"><a href="#Orlando-Florida-USA-TMS-2021-March-14-18-2021" class="headerlink" title="Orlando, Florida, USA, TMS 2021, (March 14-18, 2021)"></a>Orlando, Florida, USA, TMS 2021, (March 14-18, 2021)</h3><ol>
+<li>Kyungjun Lee (Session vice-chair), “ <strong>Ceramics and Composites II</strong> ”, Society of Tribologists &amp; Lubrication<br> Engineers, Las Vegas, NV, USA, STLE 2016, (May 16, 2016)</li>
+<li>Kyungjun Lee, S. Lee, W. Hwang, “ <strong>Fabrication of Self-cleaning Transparent Film having Nanofiber</strong><br> <strong>Array Structure</strong> ”, International Conference on Nanoscience&amp;Technology, Beijing, China, (Sep. 7-9, 2011)</li>
+<li>C. Lee, Kyungjun Lee, S. Lyn, S. Lee, Y.S. Kim, W. Hwang, “ <strong>Transparent Superhydrophobic Surface</strong><br> <strong>with Self-Cleaning Effect</strong> ”, International Conference on Composites or Nano Engineering 19, Shanghai,<br> China, (July 24-30, 2011)</li>
+</ol>
+<h3 id="-Conference-Presentations"><a href="#-Conference-Presentations" class="headerlink" title=" Conference Presentations"></a> Conference Presentations</h3><ol>
+<li>Kyungjun Lee, Peter Blau, Jeffrey A. Lacey, Vicki Thompson, George R. Fenske, Rick Elander, James R.<br> Keiser, and Jun Qu, “ <strong>Wear characterization and mitigation strategy on the cutting blade of knife mill</strong><br> <strong>used in the biomass size reduction process</strong> ”, Society of Tribologists &amp; Lubrication Engineer, USA,<br> STLE, (05/17- 20 /2021)</li>
+<li>Kyungjun Lee, Peter Blau, Jeffrey A. Lacey, Vicki Thompson, George R. Fenske, Rick Elander, James R.<br> Keiser, and Jun Qu, “ <strong>Wear characterization and mitigation strategy on the cutting blade of knife mill</strong><br> <strong>used in the biomass size reduction process</strong> ”, Society of Tribologists &amp; Lubrication Engineer, USA,<br> STLE, (05/17- 20 /2021)</li>
+<li>Kyungjun Lee, Lianshang Li, Dave Lanning, Ercan Cakmak, George R. Fenske, Oyelayo O. Ajayi, James R.<br> Keiser, and Jun Qu, “ <strong>Investigation and Mitigation on Wear Issues Occurred in the Rotary Shear</strong><br> <strong>Biomass Comminution System</strong> ”, Society of Tribologists &amp; Lubrication Engineer, USA, STLE, (05/17-<br> 20 /2021)</li>
+<li>Kyungjun Lee and Jun Qu, “ <strong>New anti-wear alloy development &amp; Biomass-caused equipment wear</strong><br> <strong>issues &amp; mitigation strategy</strong> ”, Korean Tribology Society, Korea, KTS, (04/20/2021)</li>
+<li>Kyungjun Lee, Jun Qu, and James R. Keiser, “ <strong>Mitigating wear issues in hammer mill for size reduction</strong><br> <strong>of biomass feedstock</strong> ”, Society of Tribologists &amp; Lubrication Engineer, Chicago, IL, USA, STLE 2020,<br> (05/ 07 / 2020 )</li>
+<li>Kyungjun Lee, Jun Qu, Erik Kuhn, James R. Keiser, and Ed Wolfrum, “ <strong>Ash-induced Wear on Biomass</strong><br> <strong>Pre-Conversion Equipment</strong> ”, Society of Tribologists &amp; Lubrication Engineer, Nashville, TN, USA, STLE<br> 2019 , (05/ 20 / 2019 )</li>
+<li>Kyungjun Lee, M. Fevzi Ozaydin, and Hong Liang, “ <strong>Quasicrystal-based Multi-Phase Alloys for</strong><br> <strong>Improved Wear Resistance</strong> ”, Society of Tribologists &amp; Lubrication Engineer, Las Vegas, NV, USA, STLE<br> 2016 , (05/16/ 2016 )</li>
+</ol>
+<ol>
+<li>Kyungjun Lee, M. Fevzi Ozaydin, and Hong Liang, “ <strong>Design and Synthesis of a Geopolymer-Enhanced</strong><br> <strong>Quasi-Crystalline Composite for Resisting Wear and Corrosion</strong> ”, Houston, USA, ASME 2015,<br> (11/18/ 2015 )</li>
+<li>Kyungjun Lee, S. Lee, W. Hwang, “ <strong>Fabrication of Self-Cleaning Transparent Film having Nanofiber</strong><br> <strong>Array Structure</strong> ”, International Conference on Nanoscience &amp; Technology, Beijing, China, (09/ 08 / 2011 )</li>
+<li>Kyungjun Lee, “ <strong>Self-Cleaning Effect of the Transparent Super-Hydrophobic Film having Nanofibers</strong><br><strong>Array Structures</strong> ”, China Academy of Machinery Science &amp; Technology, Beijing, China, (01/14/ 2009 )</li>
+</ol>
+<h3 id="-Conference-Poster-Presentations"><a href="#-Conference-Poster-Presentations" class="headerlink" title=" Conference Poster Presentations"></a> Conference Poster Presentations</h3><ol>
+<li>Kyungjun Lee, Sougata Roy, James R. Keiser, and Jun Qu, “ <strong>Composition and Abrasiveness of Biomass</strong><br> <strong>Extrinsic and Intrinsic Inorganic Compounds</strong> ”, San Diego, CA, TMS 2020, (02/27/2020)</li>
+<li>Kyungjun Lee, Sougata Roy, Jeffery Lacey, Erik Kuhn, James Keiser, Vicki Thompson, Ed Wolfrum, and<br> Jun Qu, “ <strong>Investigation of Equipment Wear Issues in Biomass Pre-Processing and Pre-treatment</strong> ”,</li>
+</ol>
+<h3 id="San-Antonio-TX-USA-TMS2019-03-12-2019-Best-Poster-Award"><a href="#San-Antonio-TX-USA-TMS2019-03-12-2019-Best-Poster-Award" class="headerlink" title="San Antonio, TX, USA, TMS2019, (03/12/2019, Best Poster Award)"></a>San Antonio, TX, USA, TMS2019, (03/12/2019, Best Poster Award)</h3><ol>
+<li>Kyungjun Lee, and Hong Liang, “ <strong>Multi-Phase Quasicrystalline Alloys for Superior Wear Resistance</strong> ”,<br> Emerging Surface Engineering Technologies, College Station, USA, Texas Engineering Experiment Station,<br> (11/03/2016)</li>
+<li>Kyungjun Lee, M. Fevzi Ozaydin, and Hong Liang, “ <strong>A Novel Quasicrystalline Alloy for Increased Wear</strong><br> <strong>Resistance</strong> ”, Society of Tribologists &amp; Lubrication Engineer, Dallas, USA, STLE 2015, (05/19/2015)</li>
+</ol>
+<h2 id="Reviewer-Experience"><a href="#Reviewer-Experience" class="headerlink" title="Reviewer Experience"></a>Reviewer Experience</h2><h3 id="-Petroleum-Science-03-2-6"><a href="#-Petroleum-Science-03-2-6" class="headerlink" title=" Petroleum Science 03/2 6 /"></a> Petroleum Science 03/2 6 /</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Friction Challenge in Hydraulic Fracturing</span><br></pre></td></tr></table></figure>
+<h3 id="-Journal-of-Tribology-09-29"><a href="#-Journal-of-Tribology-09-29" class="headerlink" title=" Journal of Tribology 09/29/"></a> Journal of Tribology 09/29/</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Tribological characterization of recast layers of AISI 304L with variations in electrical discharge machining</span><br><span class="line">parameters</span><br></pre></td></tr></table></figure>
+<h3 id="-Friction-09-10"><a href="#-Friction-09-10" class="headerlink" title=" Friction 09/10/"></a> Friction 09/10/</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">The structure, tribological properties and the growth mechanism of in-situ generated TiC in titanium cermet</span><br></pre></td></tr></table></figure>
+<h3 id="-Journal-of-Tribology-07-17"><a href="#-Journal-of-Tribology-07-17" class="headerlink" title=" Journal of Tribology 07/17/"></a> Journal of Tribology 07/17/</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Study on Tribological Properties of Fe 3 Al Alloy as an Alternative Material for Scraper Manufacturing in Scraper</span><br><span class="line">Conveyor</span><br></pre></td></tr></table></figure>
+<h3 id="-Tribology-Materials-Surfaces-amp-Interfaces-08-15"><a href="#-Tribology-Materials-Surfaces-amp-Interfaces-08-15" class="headerlink" title=" Tribology-Materials, Surfaces &amp; Interfaces 08/15/"></a> Tribology-Materials, Surfaces &amp; Interfaces 08/15/</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Tribological behavior of In-situ Al-Al 2 O 3 composite developed by V 2 O 5 particles</span><br></pre></td></tr></table></figure>
+<h2 id="Teaching-Experience"><a href="#Teaching-Experience" class="headerlink" title="Teaching Experience"></a>Teaching Experience</h2><h3 id="-Texas-A-amp-M-University"><a href="#-Texas-A-amp-M-University" class="headerlink" title=" Texas A&amp;M University"></a> Texas A&amp;M University</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Nonmetallic materials (MMET 206), Texas A&amp;M University Fall 2015 - Summer 2018</span><br><span class="line">Materials Science (MEEN 222), Texas A&amp;M University Spring 2014</span><br><span class="line">Introduction to Engineering Experimentation (MEEN 260), Texas A&amp;M University Fall 2013</span><br></pre></td></tr></table></figure>
+<h3 id="-POSTECH"><a href="#-POSTECH" class="headerlink" title=" POSTECH"></a> POSTECH</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">System Design, POSTECH Fall 2008</span><br><span class="line">Theory of Mechanical Design, POSTECH Spring 2008</span><br></pre></td></tr></table></figure>
+<h2 id="Academic-Honors"><a href="#Academic-Honors" class="headerlink" title="Academic Honors"></a>Academic Honors</h2><h3 id="-Texas-A-amp-M-University-1"><a href="#-Texas-A-amp-M-University-1" class="headerlink" title=" Texas A&amp;M University"></a> Texas A&amp;M University</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">In-state scholarship Fall 2014 - Spring 2015</span><br></pre></td></tr></table></figure>
+<h3 id="-POSTECH-1"><a href="#-POSTECH-1" class="headerlink" title=" POSTECH"></a> POSTECH</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Full Scholarship for academic excellence Spring 2004 &amp; Fall 2007 - Fall 2008</span><br></pre></td></tr></table></figure>
+<h3 id="-Hanyang-University"><a href="#-Hanyang-University" class="headerlink" title=" Hanyang University"></a> Hanyang University</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Graduation with honor prizes awards for curricular achievement Feb. 2004</span><br><span class="line">Scholarship for academic excellence Fall 2000 &amp; Fall 2003</span><br></pre></td></tr></table></figure>
+<h2 id="Research-Scholarship"><a href="#Research-Scholarship" class="headerlink" title="Research Scholarship"></a>Research Scholarship</h2><h3 id="-Texas-A-amp-M-University-Fall-2013-Spring-2014"><a href="#-Texas-A-amp-M-University-Fall-2013-Spring-2014" class="headerlink" title=" Texas A&amp;M University Fall 2013 - Spring 2014"></a> Texas A&amp;M University Fall 2013 - Spring 2014</h3><h3 id="-POSTECH-Spring-2004-amp-Fall-2007-Fall-2008"><a href="#-POSTECH-Spring-2004-amp-Fall-2007-Fall-2008" class="headerlink" title=" POSTECH Spring 2004 &amp; Fall 2007 - Fall 2008"></a> POSTECH Spring 2004 &amp; Fall 2007 - Fall 2008</h3><hr>
+<blockquote>
+<p>The scenery we often see is that a person always looks up and envy the happiness of others, but finds that he is being looked up and envious. In fact, everyone is happy, but your happiness is often in the eyes of others.<br>&nbsp;<br>Life is a one-way trip. Even if there are some regrets, we have no chance to start all over again. It is better to smile and cherish the future than to confuse the past, because life is not as if.<br>&nbsp;<br>Don’t think too much, just do it now.</p>
+</blockquote>
+
+            </div>
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <!-- no hr -->
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                            
+                        
+                    </div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="#">Other</a></li>
+                    
+                </ul>
+                
+            </div>
+        
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; MDTL 2023 
+                    <br>
+                    Powered by 
+                    <a href="https://github.com/hexojs/hexo" target="_blank" rel="noopener">
+                        <i>hexo</i>
+                    </a>
+                    <!-- <iframe name="star" style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0"
+                        width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=dusign&repo=hexo-theme-snail&type=star&count=true">
+                    </iframe> -->
+                </p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<!-- jQuery -->
+
+<script src="/js/jquery.min.js"></script>
+
+
+<!-- Bootstrap Core JavaScript -->
+
+<script src="/js/bootstrap.min.js"></script>
+
+
+<!-- Custom Theme JavaScript -->
+
+<script src="/js/hux-blog.min.js"></script>
+
+
+<!-- Search -->
+
+<script src="/js/search.js"></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("https://dusign.net/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-XXXXXXXX-X';
+    var _gaDomain = 'yoursite';
+
+    // Originial
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+
+<!-- Baidu Tongji -->
+
+
+<!-- Search -->
+
+    <script type="text/javascript">      
+        var search_path = "search.xml";
+        if (search_path.length == 0) {
+            search_path = "search.xml";
+        }
+    var path = "/" + search_path;
+    searchFunc(path, 'local-search-input', 'local-search-result');
+    </script>
+
+
+<!-- busuanzi -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+
+	<a id="rocket" href="#top" class=""></a>
+	<script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+    <script type="text/javascript" src="/js/toc.js?v=1.0.0" async=""></script>
+
+    
+        <!-- background effects line -->
+        
+
+        
+
+        <!-- background effects end -->
+    
+
+    <!--<script size="50" alpha='0.3' zIndex="-999" src="/js/ribbonStatic.js"></script>-->
+    
+        <script src="/js/ribbonDynamic.js"></script>
+    
+</body>
+
+</html>

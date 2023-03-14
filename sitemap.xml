@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dusign.net/members/index.html</loc>
+    
+    <lastmod>2023-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dusign.net/professor/index.html</loc>
+    
+    <lastmod>2023-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dusign.net/publications/index.html</loc>
+    
+    <lastmod>2023-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://dusign.net/2022/11/01/about/</loc>
     
     <lastmod>2023-03-11</lastmod>
@@ -11,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://dusign.net/photography/index.html</loc>
+    <loc>https://dusign.net/photography_/index.html</loc>
     
     <lastmod>2023-03-11</lastmod>
     
@@ -29,25 +56,7 @@
   </url>
   
   <url>
-    <loc>https://dusign.net/publications/index.html</loc>
-    
-    <lastmod>2023-03-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://dusign.net/404.html</loc>
-    
-    <lastmod>2023-03-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://dusign.net/members/index.html</loc>
     
     <lastmod>2023-03-09</lastmod>
     
@@ -58,7 +67,7 @@
 
   <url>
     <loc>https://dusign.net/</loc>
-    <lastmod>2023-03-11</lastmod>
+    <lastmod>2023-03-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -66,7 +75,7 @@
   
   <url>
     <loc>https://dusign.net/tags/About/</loc>
-    <lastmod>2023-03-11</lastmod>
+    <lastmod>2023-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -75,7 +84,7 @@
   
   <url>
     <loc>https://dusign.net/categories/About/</loc>
-    <lastmod>2023-03-11</lastmod>
+    <lastmod>2023-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
