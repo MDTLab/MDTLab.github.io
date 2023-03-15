@@ -30,6 +30,10 @@
 	padding: 0px;
 	object-fit: contain;
 }
+.photography p:hover img {
+	transform: scale(1.5); /* 1.5 is the zoom factor, you can change it as needed */
+	transition: transform 0.3s ease-in-out;
+  }
 .photography p strong{
 	display: block;
 	width: 100%;
