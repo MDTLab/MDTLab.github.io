@@ -28,6 +28,7 @@
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
+	object-fit: contain;
 }
 .photography p strong{
 	display: block;
