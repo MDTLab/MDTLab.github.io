@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/2023/03/18/about/</loc>
+    
+    <lastmod>2023-03-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/members/index.html</loc>
+    
+    <lastmod>2023-03-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/professor/index.html</loc>
     
     <lastmod>2023-03-17</lastmod>
@@ -29,27 +47,9 @@
   </url>
   
   <url>
-    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/members/index.html</loc>
-    
-    <lastmod>2023-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/publications/index.html</loc>
     
     <lastmod>2023-03-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/2022/11/01/about/</loc>
-    
-    <lastmod>2023-03-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +67,7 @@
 
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do</loc>
-    <lastmod>2023-03-17</lastmod>
+    <lastmod>2023-03-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,7 +75,7 @@
   
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/tags/About/</loc>
-    <lastmod>2023-03-17</lastmod>
+    <lastmod>2023-03-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -84,7 +84,7 @@
   
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/categories/About/</loc>
-    <lastmod>2023-03-17</lastmod>
+    <lastmod>2023-03-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
