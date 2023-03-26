@@ -2,9 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/contact/index.html</loc>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/2023/03/17/Investigation-of-Biomass-Fouling-on-Screw-Feeder-in-Preconversion-of-Pyrolysis/</loc>
     
-    <lastmod>2023-03-18</lastmod>
+    <lastmod>2023-03-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/2020/01/02/Composition-Preserving-Extraction-and-Characterization-of-Biomass-Extrinsic-and-Intrinsic-Inorganic-Compounds/</loc>
+    
+    <lastmod>2023-03-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/2022/12/01/Knock-sensing-and-imaging-from-structural-bending-waves/</loc>
+    
+    <lastmod>2023-03-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/2021/08/25/Wear-Mechanism-Analysis-of-a-New-Rotary-Shear-Biomass-Comminution-System/</loc>
+    
+    <lastmod>2023-03-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/2021/07/30/Recent-development-in-friction-of-2D-materials-from-mechanisms-to-applications/</loc>
+    
+    <lastmod>2023-03-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +49,7 @@
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/publications/index.html</loc>
     
-    <lastmod>2023-03-18</lastmod>
+    <lastmod>2023-03-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +58,16 @@
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/professor/index.html</loc>
     
-    <lastmod>2023-03-18</lastmod>
+    <lastmod>2023-03-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/contact/index.html</loc>
+    
+    <lastmod>2023-03-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +76,7 @@
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/photography/index.html</loc>
     
-    <lastmod>2023-03-18</lastmod>
+    <lastmod>2023-03-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -39,15 +84,6 @@
   
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/members/index.html</loc>
-    
-    <lastmod>2023-03-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/2023/03/18/about/</loc>
     
     <lastmod>2023-03-18</lastmod>
     
@@ -67,15 +103,36 @@
 
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do</loc>
-    <lastmod>2023-03-18</lastmod>
+    <lastmod>2023-03-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/tags/About/</loc>
-    <lastmod>2023-03-18</lastmod>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/tags/Published/</loc>
+    <lastmod>2023-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/tags/Research-Article/</loc>
+    <lastmod>2023-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/tags/Letter/</loc>
+    <lastmod>2023-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/tags/Article/</loc>
+    <lastmod>2023-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -83,8 +140,22 @@
 
   
   <url>
-    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/categories/About/</loc>
-    <lastmod>2023-03-18</lastmod>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/categories/Research-Article/</loc>
+    <lastmod>2023-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/categories/Letter/</loc>
+    <lastmod>2023-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/categories/Article/</loc>
+    <lastmod>2023-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
