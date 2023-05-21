@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/members/index.html</loc>
+    
+    <lastmod>2023-05-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/2023/06/09/Role-of-surface-wetting-on-tribological-behavior-for-laser-nanotextured-steel-using-ionic-liquid-lubricants/</loc>
     
     <lastmod>2023-05-04</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/2023/04/06/Self-cleaning-mechanisms-according-to-the-wettability-of-the-surface-and-deposition-material/</loc>
     
     <lastmod>2023-05-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/members/index.html</loc>
-    
-    <lastmod>2023-04-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -121,7 +121,7 @@
 
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do</loc>
-    <lastmod>2023-05-04</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -129,35 +129,35 @@
   
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/tags/Published/</loc>
-    <lastmod>2023-05-04</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/tags/Research-Article/</loc>
-    <lastmod>2023-05-04</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/tags/Letter/</loc>
-    <lastmod>2023-05-04</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/tags/Article/</loc>
-    <lastmod>2023-05-04</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/tags/Full-Length-Article/</loc>
-    <lastmod>2023-05-04</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -166,21 +166,21 @@
   
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/categories/Research-Article/</loc>
-    <lastmod>2023-05-04</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/categories/Letter/</loc>
-    <lastmod>2023-05-04</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.gachon.ac.kr/sites/mdpe/index.do/categories/Article/</loc>
-    <lastmod>2023-05-04</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
